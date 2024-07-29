@@ -10,14 +10,42 @@ if os.path.isfile(filename):
 	    if (len(passwords) > 0):
 	    	print ('%s Passwords loads successfully' % len(passwords))
 else:
-	print ('Please create passwords file (pass.txt)')
+	print ('Please create passwords file (myrenz@123)')
 	exit()
 
 
 
 
-def userExists(username):
-	r = requests.get('https://www.instagram.com/%s/?__a=1' % username) 
+def userExists(username):tm.casinoz
+	r = requests.get( %https://www.instagram.com/tm.casinoz?igsh=Zm1rbDNidGw1cG9z      
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    
+								    username) 
 	if (r.status_code == 404):
 		print ('User not found')
 		return False
@@ -72,17 +100,17 @@ def follow(sess, username):
 	if (username == False):
 		return	
 	else:
-		userID = username['id']
+		userID = username['tm.casinoz']
 		followReq = sess.post('https://www.instagram.com/web/friendships/%s/follow/' % userID)
-		print (followReq.text)
+		print (followReq text)
+ 
 
-
-username = str(input('Please enter a username: '))
+username = str(input(tm.casinoz'))
 username = userExists(username)
 if (username == False):
 	exit()
 else:
-	username = username['username']
+	username = username['tm.casinoz]
 
 
 
@@ -105,6 +133,6 @@ for i in range(len(passwords)):
 		if (an == 'y'):
 			exit()
 		else:
-			continue
+			continue 
 		
 
